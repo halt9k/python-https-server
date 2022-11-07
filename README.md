@@ -1,5 +1,5 @@
 # Python https server   
-Just a shortcut for common task, openssl already included.  
+Just a shortcut for common task, openssl already included (only for windows x64 & python).  
 1) Fix python path if nessesary in run_server.bat  
 2) generate_certificate.bat
 3) run_server.bat
