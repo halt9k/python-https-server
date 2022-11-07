@@ -1,1 +1,3 @@
 openssl-3\x64\bin\openssl.exe req -x509 -newkey rsa:4096 -keyout https_server\key.pem -nodes -out https_server\cert.pem -sha256 -days 365 -config "openssl-3\ssl\openssl.cnf" -subj "/C=US/ST=Oregon/L=Portland/O=Company Name/OU=Org/CN=www.example.com"
+
+set /p DUMMY=Hit ENTER to continue...
