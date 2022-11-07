@@ -1,0 +1,7 @@
+Place htm web page for tests in this directory 
+and open it from browser via https://localhost:8000/test/test_page/Test.htm
+
+This is necessary to:
+- workaround Firefox ban on Tapermonkey local file access
+- utilize https userscript requests instead of http which may be unreliable during debug
+- possibly https requests will update every first page refresh while https need constantly 2-3 page reloads
