@@ -1,0 +1,12 @@
+name: Gitleaks reused
+on:
+    pull_request:
+    push:
+    workflow_dispatch:
+    schedule:
+        # run every month
+        - cron: "0 0 1 * *"
+jobs:
+    scan-reuse:
+        uses: halt9k/shared-workflows/.github/workflows/scan_gl.yml@main
+        secrets: inherit
